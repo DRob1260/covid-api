@@ -1,0 +1,8 @@
+type Query {
+    locationById(id: ID): Location
+}
+
+type Location {
+    id: ID
+    name: String
+}
